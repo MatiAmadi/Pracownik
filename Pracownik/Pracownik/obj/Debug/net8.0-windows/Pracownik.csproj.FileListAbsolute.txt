@@ -6,7 +6,6 @@ C:\Users\mruminski\source\repos\Pracownik\Pracownik\bin\Debug\net8.0-windows\Pra
 C:\Users\mruminski\source\repos\Pracownik\Pracownik\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\mruminski\source\repos\Pracownik\Pracownik\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\mruminski\source\repos\Pracownik\Pracownik\obj\Debug\net8.0-windows\Pracownik_MarkupCompile.cache
-C:\Users\mruminski\source\repos\Pracownik\Pracownik\obj\Debug\net8.0-windows\Pracownik_MarkupCompile.lref
 C:\Users\mruminski\source\repos\Pracownik\Pracownik\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\mruminski\source\repos\Pracownik\Pracownik\obj\Debug\net8.0-windows\Pracownik.g.resources
 C:\Users\mruminski\source\repos\Pracownik\Pracownik\obj\Debug\net8.0-windows\Pracownik.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,4 +1,4 @@
-﻿<Window x:Class="EmployeeApp.MainWindow"
+﻿<Window x:Class="Pracownik.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Dodaj pracownika" Height="300" Width="550" Background="LightSteelBlue">
@@ -29,6 +29,7 @@
             </StackPanel>
         </GroupBox>
 
+
         <GroupBox Header="Generowanie hasła" FontWeight="Bold" Grid.Column="1" Margin="10,0,0,0">
             <StackPanel Margin="10">
                 <StackPanel Orientation="Horizontal" Margin="0,5">
@@ -41,5 +42,8 @@
                 <Button Content="Generuj hasło" Width="100" Margin="0,10,0,0" Click="BtnGenerujHaslo_Click"/>
             </StackPanel>
         </GroupBox>
+
+
+        <Button Content="Zatwierdź" Width="80" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Center" Grid.ColumnSpan="2" Margin="0,0,0,10" Click="BtnZatwierdz_Click"/>
     </Grid>
 </Window>
