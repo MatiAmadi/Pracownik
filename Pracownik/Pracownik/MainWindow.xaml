@@ -29,6 +29,17 @@
             </StackPanel>
         </GroupBox>
 
-        <Grid Grid.Column="1"/>
+        <GroupBox Header="Generowanie hasła" FontWeight="Bold" Grid.Column="1" Margin="10,0,0,0">
+            <StackPanel Margin="10">
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Label Width="100" VerticalAlignment="Center">Ile znaków?</Label>
+                    <TextBox x:Name="txtPasswordLength" Width="40" Text="5"/>
+                </StackPanel>
+                <CheckBox x:Name="chkLetters" IsChecked="True" Margin="0,5">Małe i wielkie litery</CheckBox>
+                <CheckBox x:Name="chkDigits" Margin="0,5">Cyfry</CheckBox>
+                <CheckBox x:Name="chkSpecial" Margin="0,5">Znaki specjalne</CheckBox>
+                <Button Content="Generuj hasło" Width="100" Margin="0,10,0,0" Click="BtnGenerujHaslo_Click"/>
+            </StackPanel>
+        </GroupBox>
     </Grid>
 </Window>

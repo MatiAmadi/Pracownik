@@ -18,7 +18,7 @@ namespace Pracownik
     {
         public MainWindow()
         {
-            InitializeComponent();
+            
         }
     }
 }
