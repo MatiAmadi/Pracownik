@@ -13,9 +13,17 @@ namespace Pracownik
 {
     public partial class MainWindow : Window
     {
+        String Lowerletter = "qwertyuiopasdfghjklzxcvbnm";
+        String UpperLetter = "QWERTYUIOPASDFGHJKLZXCVBNM";
+        String numbers = "1234567890";
+        String specialChars = "!@#$%^&*()_+";
+
         public MainWindow()
         {
-            InitializeComponent();
+            Random rand = new Random();
         }
+        
+
+
     }
 }
